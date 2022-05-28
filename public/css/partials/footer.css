@@ -1,0 +1,60 @@
+footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-flow: wrap;
+    background-color: rgba(0, 139, 139, 0.429);
+    font-family: 'Titillium Web', sans-serif;
+    justify-content: space-evenly;
+}
+
+.footer-container {
+    height: 450px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.footer-container h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.footer-element {
+    font-size: 1rem;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container form input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.footer-container form textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 100px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#tagline {
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 620px) {
+    .footer-container {
+        width: 70%;
+    }
+}
