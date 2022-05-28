@@ -1,29 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\partials\navbar.css">
+    <link rel="stylesheet" href="\css\partials\footer.css">
+    <link rel="stylesheet" href="\css\home.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AI CLUB IGDTUW</title>
+</head>
+
+<body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 </style>
 
-<div class="nav">
+<div id="nav" class="nav">
     <input type="checkbox" id="nav-check">
-    <div class="nav-logo">
-        <img src="\Assets\AIclub_logo.png" alt="">
-    </div>
-    <div class="nav-header">
-        <div class="nav-title">
-            AI CLUB IGDTUW
+    <div class="nav_left">
+        <div class="nav-logo">
+            <img src="\Assets\AIclub_logo.png" alt="">
         </div>
+        <a href="/" style="text-decoration: none;">
+            <div class="nav-header">
+                <div class="nav-title">
+                    AI CLUB IGDTUW
+                </div>
+            </div>
+        </a>
     </div>
     <div class="nav-btn">
         <label for="nav-check">
-            <img src="\Assets\hamburger.png" alt="">
+            <i class="fa-solid fa-bars"></i>
         </label>
     </div>
 
     <div class="nav-links">
-        <a href="/" id="nav-home">Home</a>
         <a href="/aboutus" id="nav-about">About Us</a>
         <a href="/team" id="nav-team">Team</a>
         <a href="/events" id="nav-events">Events</a>
         <a href="#" id="nav-events">Latest Updates</a>
         <a href="#" id="nav-events">Contact Us</a>
+        <div class="theme_switch">
+            <i class="fa-solid fa-moon"></i>
+            <!-- <i class="fa-solid fa-sun-bright"></i> -->
+        </div>
     </div>
 </div>
