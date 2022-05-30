@@ -109,7 +109,7 @@ main div img {
 }
 
 .about_text {
-    width: 70%;
+    /* width: 70%; */
 }
 
 .intro_video {
@@ -138,7 +138,7 @@ main div img {
 .vc_photo img {
     border-radius: 10px;
     /* border-radius: 2px ; */
-    width: 70%;
+    /* width: 70%; */
 }
 
 .vc_text {

@@ -1,7 +1,7 @@
 teamData = [
   [
     { img: "president.png", name: "Shruti Sinha", post: "President", linkedIn: "https://www.linkedin.com/in/shruti-sinha-8b68a4131"},
-    { img: "Arun_sir.jpeg", name: "Arun Sharma", post: "Faculty Coordinator", linkedIn: "#"}
+    //{ img: "Arun_sir.jpeg", name: "Arun Sharma", post: "Faculty Coordinator", linkedIn: "#"}
   ],
   [
     {img: "MEDHAVI_MAURYA.png", name: "Medhavi Maurya", post: "Vice President", linkedIn: "https://www.linkedin.com/in/medhavi-maurya-7201711b3"},
