@@ -1,9 +1,10 @@
-.team{
+.team {
   --team-cyan: #1da6be;
   padding-top: 100px;
   text-align: center;
 }
-.team_row{
+
+.team_row {
   text-align: center;
   margin: 20px auto 150px;
   display: flex;
@@ -13,6 +14,7 @@
   flex-wrap: wrap;
   gap: 40px;
 }
+
 figure.snip0078 {
   position: relative;
   float: left;
@@ -23,10 +25,12 @@ figure.snip0078 {
   width: 100%;
   text-align: center;
 }
+
 figure.snip0078 * {
   -webkit-box-sizing: padding-box;
   box-sizing: padding-box;
 }
+
 figure.snip0078 img {
   opacity: 1;
   max-width: 100%;
@@ -38,6 +42,7 @@ figure.snip0078 img {
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
 }
+
 figure.snip0078 figcaption {
   bottom: 0;
   width: 60%;
@@ -51,24 +56,29 @@ figure.snip0078 figcaption {
   transform: translateY(0);
   box-shadow: 0 0px 10px -10px #000000;
 }
+
 figure.snip0078 figcaption h2,
 figure.snip0078 figcaption p {
   margin: 0;
   color: var(--dark-text);
 }
+
 figure.snip0078 figcaption h2 {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 18px;
 }
+
 figure.snip0078 figcaption h2 span {
   font-weight: 800;
 }
+
 figure.snip0078 figcaption p {
   font-size: 0.9em;
   font-weight: 500;
   opacity: 0.65;
 }
+
 figure.snip0078 a {
   left: 0;
   right: 0;
@@ -77,19 +87,23 @@ figure.snip0078 a {
   position: absolute;
   z-index: 1;
 }
+
 figure.snip0078.blue figcaption {
   background: var(--team-cyan);
 }
+
 figure.snip0078.blue img {
   border: 10px solid var(--team-cyan);
 }
-.fa-brands{
+
+.fa-brands {
   margin-top: 5px;
   background-color: white;
   border-radius: 5px;
   color: var(--team-cyan);
   padding: 7px;
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
   color: #226975;
 }
