@@ -16,6 +16,7 @@ html {
     font-family: sans-serif;
     line-height: 1.15;
     scroll-behavior: smooth;
+    background-color: #f0f0f0;
 }
 
 *,
@@ -23,9 +24,7 @@ html {
 *::after {
   box-sizing: border-box;
 }
-html {
-  background-color: #f0f0f0;
-}
+
 body {
   color: #999999;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -40,16 +39,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
 }
-.btn {
-  background-color: white;
-  border: 1px solid #cccccc;
-  color: #696969;
-  padding: 0.5rem;
-  text-transform: lowercase;
-}
-.btn--block {
-  display: block;
-  width: 100%;
+.container{
+    margin-top: 3em;
 }
 .cards {
   display: flex;
