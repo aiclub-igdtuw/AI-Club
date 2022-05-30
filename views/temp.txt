@@ -1,0 +1,128 @@
+
+
+        <div class="section-title">
+            <h1>CORE TEAM</h1>
+        </div>
+        <ul class="cards">
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="tech1"></div>
+                    <div class="card__content">
+                    <div class="card__title">Aishwarya Suresh</div>
+                    <p class="card__text">Technical Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="tech2"></div>
+                    <div class="card__content">
+                    <div class="card__title">Jhanvee Khola</div>
+                    <p class="card__text">Technical Head</p>
+                    <a href="https://www.linkedin.com/in/jhanvee-khola/"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="tech3"></div>
+                    <div class="card__content">
+                    <div class="card__title">Apoorva Tiwari</div>
+                    <p class="card__text">Technical Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+            <div class="card">
+                <div class="card__image" id="content"></div>
+                <div class="card__content">
+                <div class="card__title">Amritaya</div>
+                <p class="card__text">Content Head</p>
+                <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+            </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="research1"></div>
+                <div class="card__content">
+                    <div class="card__title">Ujali Sharma</div>
+                    <p class="card__text">Research Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="research2"></div>
+                <div class="card__content">
+                    <div class="card__title">Ishita Saxena</div>
+                    <p class="card__text">Research Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="em1"></div>
+                <div class="card__content">
+                    <div class="card__title">Yuktika Duggal</div>
+                    <p class="card__text">Event Management Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="em2"></div>
+                <div class="card__content">
+                    <div class="card__title">Yashika Behl</div>
+                    <p class="card__text">Event Management Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="pr1"></div>
+                <div class="card__content">
+                    <div class="card__title">Shruti Koli</div>
+                    <p class="card__text">PR Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="pr2"></div>
+                <div class="card__content">
+                    <div class="card__title">Yashvi Singh</div>
+                    <p class="card__text">PR Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="creative1"></div>
+                <div class="card__content">
+                    <div class="card__title">Srishti Agrawal</div>
+                    <p class="card__text">Creative Head</p>
+                    <a href="https://www.linkedin.com/in/srishti-agrawal-7974871bb"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="creative2"></div>
+                <div class="card__content">
+                    <div class="card__title">Veethika Eeti</div>
+                    <p class="card__text">Creative Head</p>
+                    <a href="https://www.linkedin.com/in/veethika-eeti-1656931bb"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+        </ul>
+    </div>

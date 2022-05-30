@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const port = 4004
-
+const teamData = require("./public/JS/team-data")
 //view engine setup
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -18,7 +18,7 @@ app.get('/register', (req, res) => {
 })
 
 app.get('/team', (req, res) => {
-    res.render('team');
+    res.render('team', teamData);
 })
 
 app.get('/events', (req, res) => {
