@@ -26,7 +26,6 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
-  text-align: center;
   align-items: center;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -35,6 +34,7 @@ body {
 }
 .container{
     margin-top: 3em;
+    text-align: center;
 }
 .cards {
   display: flex;
