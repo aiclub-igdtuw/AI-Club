@@ -6,7 +6,9 @@ body {
     margin: 0px;
     font-family: 'segoe ui';
 } */
-
+html {
+  scroll-behavior: smooth;
+}
 .nav {
   height: 60px;
   width: 100%;
