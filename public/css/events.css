@@ -1,7 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
 }
 
 #nav-events {
     color: darkcyan;
+}
+
+.events_page {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.rows {
+    margin-bottom: 100px;
+    border-spacing: 15px 15px;
+
+}
+
+.table {
+    text-align: center;
+    border: none;
+    border-spacing: 0 15px;
+    border-collapse: separate;
+    border-spacing: 0 5em;
+}
+
+
+.heading {
+
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    /* margin: 30px; */
+}
+
+.event {
+
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.event .content {
+    background: #B3E8E5;
+    color: black;
+    bottom: 0;
+    height: 68px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all .5s ease;
+    width: 100%;
+}
+
+.event h3 {
+    font: bold 1em/1.125em 'Montserrat', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    height: 68px;
+    margin: 0;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.event .rollover {
+    border-top: 1px solid #B3E8E5;
+    font-size: .9375em;
+    line-height: 1.4em;
+    padding: 18px 20px;
+    opacity: 0.9;
+    transition: all .5s ease;
+}
+
+.event .rollover p {
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.event:hover .content {
+    background: #B3E8E5;
+    opacity: 0.7;
+    height: 100%;
+}
+
+.event:hover .rollover {
+    opacity: 1;
 }

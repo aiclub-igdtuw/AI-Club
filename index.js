@@ -10,11 +10,11 @@ app.set('views', path.join(__dirname, '/views'))
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
-    res.render('home');
+    res.render('index');
 })
 
-app.get('/aboutus', (req, res) => {
-    res.render('aboutus');
+app.get('/register', (req, res) => {
+    res.render('register');
 })
 
 app.get('/team', (req, res) => {
