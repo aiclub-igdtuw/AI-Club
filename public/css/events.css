@@ -1,91 +1,66 @@
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: black;
-}
-
-.events_page {
+.events {
     padding-top: 100px;
-    text-align: center;
-}
-
-.rows {
-    margin-bottom: 100px;
-    border-spacing: 15px 15px;
-
-}
-
-.table {
-    text-align: center;
-    border: none;
-    border-spacing: 0 15px;
-    border-collapse: separate;
-    border-spacing: 0 5em;
-}
-
-
-.heading {
-
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.5rem;
-    /* margin: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .event {
-
-    margin-bottom: 20px;
-    position: relative;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
     width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: #00abc9;
+    position: relative;
+    overflow: hidden;
 }
 
-.event .content {
-    background: #B3E8E5;
-    color: black;
-    bottom: 0;
-    height: 68px;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    transition: all .5s ease;
+.event img {
     width: 100%;
 }
 
-.event h3 {
-    font: bold 1em/1.125em 'Montserrat', Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
-    height: 68px;
-    margin: 0;
-    padding-top: 20px;
-    text-transform: uppercase;
+.event-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0.5rem 1rem 1rem; */
+    /* letter-spacing: 0.5px; */
+    text-align: center;
 }
 
-.event .rollover {
-    border-top: 1px solid #B3E8E5;
-    font-size: .9375em;
-    line-height: 1.4em;
-    padding: 18px 20px;
-    opacity: 0.9;
-    transition: all .5s ease;
+.event-info h3 {
+    margin-top: 0;
 }
 
-.event .rollover p {
-    margin: 0;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+/* .movie-info span {
+    background-color: #C996CC;
+    padding: 0.25rem 0.5rem;
+    margin-top: 10px;
+    border-radius: 3px;
     color: black;
+    font-weight: bold;
+} */
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F6F6F6;
+    color: #066163;
+    font-weight: 500;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
 }
 
-.event:hover .content {
-    background: #B3E8E5;
-    opacity: 0.7;
-    height: 100%;
+.overview h3 {
+    font-weight: 900;
 }
 
-.event:hover .rollover {
-    opacity: 1;
+.event:hover .overview {
+    transform: translateY(0);
 }
