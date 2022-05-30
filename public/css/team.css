@@ -1,153 +1,95 @@
-/* body {
-    background-color: black;
-    /* background-image: url('/Assets/design.png'); */
-} */
-
-#nav-team {
-    color: darkcyan;
+.team{
+  --team-cyan: #1da6be;
+  padding-top: 100px;
+  text-align: center;
 }
-html {
-/*     font-family: sans-serif; */
-    line-height: 1.15;
-    scroll-behavior: smooth;
-/*     background-color: #f0f0f0; */
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-/*   color: #999999; */
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  align-items: center;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
-.container{
-    margin-top: 3em;
-    text-align: center;
-}
-.cards {
+.team_row{
+  text-align: center;
+  margin: 20px auto 150px;
   display: flex;
+  width: 90%;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  gap: 40px;
 }
-.cards__item {
-  display: flex;
-  padding: 1rem;
-  width: auto;
-}
-
-.card {
-  background-color: white;
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(232, 228, 228, 0.329);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-.card:hover .card__image {
-  filter: contrast(100%);
-}
-.card__content {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  padding: 1rem;
-}
-.card__image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  filter: contrast(70%);
-  /* overflow: hidden; */
+figure.snip0078 {
   position: relative;
-  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  float: left;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 310px;
+  width: 100%;
+  text-align: center;
 }
-.card__image::before {
-  content: "";
-  display: block;
-  padding-top: 40vh;
+figure.snip0078 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
 }
-
-.card__title {
-  color: #696969;
-  font-size: 1.25rem;
-  font-weight: 300;
-  letter-spacing: 2px;
+figure.snip0078 img {
+  opacity: 1;
+  max-width: 100%;
+  border: 10px solid #000000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+figure.snip0078 figcaption {
+  bottom: 0;
+  width: 60%;
+  right: 0;
+  position: absolute;
+  background: #000000;
+  padding: 10px 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  box-shadow: 0 0px 10px -10px #000000;
+}
+figure.snip0078 figcaption h2,
+figure.snip0078 figcaption p {
+  margin: 0;
+  color: var(--dark-text);
+}
+figure.snip0078 figcaption h2 {
+  font-weight: 400;
   text-transform: uppercase;
+  font-size: 18px;
 }
-.card__text {
-  flex: 1 1 auto;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
+figure.snip0078 figcaption h2 span {
+  font-weight: 800;
 }
-
-
-/* IMAGES */
-#president {
-  background-image: url(../Assets/president.png);
+figure.snip0078 figcaption p {
+  font-size: 0.9em;
+  font-weight: 500;
+  opacity: 0.65;
 }
-#faculty {
-  background-image: url(../Assets/Arun_sir.jpeg);
+figure.snip0078 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
 }
-#vp1 {
-  background-image: url(../Assets/MEDHAVI_MAURYA.png);
+figure.snip0078.blue figcaption {
+  background: var(--team-cyan);
 }
-#vp2 {
-  background-image: url(../Assets/VIBHUTI.png);
+figure.snip0078.blue img {
+  border: 10px solid var(--team-cyan);
 }
-#vp3 {
-  background-image: url(../Assets/PREETI.png);
+.fa-brands{
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 5px;
+  color: var(--team-cyan);
+  padding: 7px;
 }
-#tech1 {
-  background-image: url(../Assets/aishwarya.png);
+.fa-brands:hover{
+  color: #226975;
 }
-#tech2 {
-  background-image: url(../Assets/jhanvee.png);
-}
-#tech3 {
-  background-image: url(../Assets/apoorva_tiwari.png);
-}
-#content {
-  background-image: url(../Assets/AMRITAYA.png);
-}
-#research1 {
-  background-image: url(../Assets/ujali_sharma.png);
-}
-#research2{
-  background-image: url(../Assets/Ishita_Saxena_2_Cse.png);
-}
-#em1 {
-  background-image: url(../Assets/yuktika_duggal.png);
-}
-#em2 {
-  background-image: url(../Assets/yashika_behl.png);
-}
-#pr1 {
-  background-image: url(../Assets/shruti_koli.png);
-}
-#pr2 {
-  background-image: url(../Assets/yashvi.png);
-}
-#creative1 {
-  background-image: url(../Assets/SRISHTI_SINGH.png);
-}
-#creative2 {
-  background-image: url(../Assets/veethika.png);
-}
-

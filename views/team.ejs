@@ -1,213 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\css\partials\navbar.css">
-    <link rel="stylesheet" href="\css\partials\footer.css">
-    <link rel="stylesheet" href="\css\team.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700;1,900&display=swap"
-        rel="stylesheet">
-
-    <!-- FOnt Awesome -->
-    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
-    <title>AI CLUB IGDTUW</title>
-</head>
-
-<body>
-    <%- include('partials/navbar') %>
-        <div class="container">
-        <div class="section-title">
-            <h1>Our Team </h1>
+<%- include('partials/navbar') %>
+    <div class="team">
+        <h1>OUR TEAM</h1>
+        <div class="team_row">
+            <% teamData[0].map(card => { %>
+                <figure class="snip0078 hover blue">
+                    <img src="/Assets/<%= card.img %> " alt="sampl45" />
+                    <figcaption>
+                        <% const fullName = card.name.split(" "); %>
+                        <h2> <%= fullName[0]%> <span><%= fullName[1]%></span></h2> %> 
+                      <p><%= card.post %></p>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </figcaption>
+                    <a href="<%= card.linkedIn %>"></a>
+                  </figure>
+            <% }) %> 
         </div>
-        <ul class="cards">
-            <li class="cards__item">
-                <div class="card">
-                <div class="card__image" id="president"></div>
-                <div class="card__content">
-                    <div class="card__title">Shruti Sinha</div>
-                    <p class="card__text">President</p>
-                    <a href="https://www.linkedin.com/in/shruti-sinha-8b68a4131"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                <div class="card__image" id="faculty"></div>
-                <div class="card__content">
-                    <div class="card__title">Arun Sharma</div>
-                    <p class="card__text">Faculty Coordinator</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-        </ul>
-
-        <div class="section-title">
-            <h1>VICE PRESIDENTS</h1>
+        <h1>Vice Presidents</h1>
+        <div class="team_row">
+            <% teamData[1].map(card => { %>
+                <figure class="snip0078 hover blue">
+                    <img src="/Assets/<%= card.img %> " alt="sampl45" />
+                    <figcaption>
+                        <% const fullName = card.name.split(" "); %>
+                        <h2> <%= fullName[0]%> <span><%= fullName[1]%></span></h2> %> 
+                      <p><%= card.post %></p>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </figcaption>
+                    <a href="<%= card.linkedIn %>"></a>
+                  </figure>
+            <% }) %> 
         </div>
-        <ul class="cards">
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="vp1"></div>
-                    <div class="card__content">
-                    <div class="card__title">Medhavi Maurya</div>
-                    <p class="card__text">Vice President</p>
-                    <a href="https://www.linkedin.com/in/medhavi-maurya-7201711b3"><i class="fa fa-lg fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="vp2"></div>
-                    <div class="card__content">
-                    <div class="card__title">Vibhuti Saha</div>
-                    <p class="card__text">Vice President</p>
-                    <a href="https://www.linkedin.com/in/vibhuti-saha-8452ab1b8"><i class="fa fa-lg fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="vp3"></div>
-                    <div class="card__content">
-                    <div class="card__title">Preeti Dhankar</div>
-                    <p class="card__text">Vice President</p>
-                    <a href="https://www.linkedin.com/in/preeti-dhankar-9589851b5/"><i class="fa fa-lg fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </li>
-        </ul>
-
-        <div class="section-title">
-            <h1>CORE TEAM</h1>
+        <h1>Core Team</h1>
+        <div class="team_row">
+            <% teamData[2].map(card => { %>
+                <figure class="snip0078 hover blue">
+                    <img src="/Assets/<%= card.img %> " alt="sampl45" />
+                    <figcaption>
+                        <% const fullName = card.name.split(" "); %>
+                        <h2> <%= fullName[0]%> <span><%= fullName[1]%></span></h2> %> 
+                      <p><%= card.post %></p>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </figcaption>
+                    <a href="<%= card.linkedIn %>"></a>
+                  </figure>
+            <% }) %> 
         </div>
-        <ul class="cards">
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="tech1"></div>
-                    <div class="card__content">
-                    <div class="card__title">Aishwarya Suresh</div>
-                    <p class="card__text">Technical Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="tech2"></div>
-                    <div class="card__content">
-                    <div class="card__title">Jhanvee Khola</div>
-                    <p class="card__text">Technical Head</p>
-                    <a href="https://www.linkedin.com/in/jhanvee-khola/"><i class="fa fa-lg fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="tech3"></div>
-                    <div class="card__content">
-                    <div class="card__title">Apoorva Tiwari</div>
-                    <p class="card__text">Technical Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </li>
-            <li class="cards__item">
-            <div class="card">
-                <div class="card__image" id="content"></div>
-                <div class="card__content">
-                <div class="card__title">Amritaya</div>
-                <p class="card__text">Content Head</p>
-                <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-            </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="research1"></div>
-                <div class="card__content">
-                    <div class="card__title">Ujali Sharma</div>
-                    <p class="card__text">Research Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="research2"></div>
-                <div class="card__content">
-                    <div class="card__title">Ishita Saxena</div>
-                    <p class="card__text">Research Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="em1"></div>
-                <div class="card__content">
-                    <div class="card__title">Yuktika Duggal</div>
-                    <p class="card__text">Event Management Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="em2"></div>
-                <div class="card__content">
-                    <div class="card__title">Yashika Behl</div>
-                    <p class="card__text">Event Management Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="pr1"></div>
-                <div class="card__content">
-                    <div class="card__title">Shruti Koli</div>
-                    <p class="card__text">PR Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="pr2"></div>
-                <div class="card__content">
-                    <div class="card__title">Yashvi Singh</div>
-                    <p class="card__text">PR Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="creative1"></div>
-                <div class="card__content">
-                    <div class="card__title">Srishti Agrawal</div>
-                    <p class="card__text">Creative Head</p>
-                    <a href="https://www.linkedin.com/in/srishti-agrawal-7974871bb"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-            <li class="cards__item">
-                <div class="card">
-                    <div class="card__image" id="creative2"></div>
-                <div class="card__content">
-                    <div class="card__title">Veethika Eeti</div>
-                    <p class="card__text">Creative Head</p>
-                    <a href="https://www.linkedin.com/in/veethika-eeti-1656931bb"><i class="fa fa-lg fa-linkedin"></i></a>
-                </div>
-                </div>
-            </li>
-        </ul>
     </div>
-        <%- include('partials/footer') %>
-</body>
-
-</html>
+    <%- include('partials/footer') %>
