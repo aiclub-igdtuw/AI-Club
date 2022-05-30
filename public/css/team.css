@@ -15,9 +15,8 @@ body {
 html {
     font-family: sans-serif;
     line-height: 1.15;
+    scroll-behavior: smooth;
 }
-
-
 
 .container a {
     color: #333333;
