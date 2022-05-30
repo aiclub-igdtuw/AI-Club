@@ -21,6 +21,7 @@ body {
   color: var(--dark-text);
   /* padding: 0 40px; */
 }
+
 .nav_left {
   display: flex;
   /* width: 30%; */
@@ -29,6 +30,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .nav_left .nav-header,
 .nav_left .nav-logo {
   display: flex;
@@ -39,18 +41,20 @@ body {
 .nav-logo {
   padding: 15px 15px 0;
 }
+
 .nav-logo img {
-  height: 50px;
+  height: 40px;
   /* padding: 20px 0; */
-  /* margin: 0; */
-  /* position: absolute; */
-  /* top: 50%;
-    left: 10px; */
-  /* transform: translateY(-50%); */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
 }
 
 .nav-header .nav-title {
   /* display: inline-block; */
+  margin-left: 20px;
   font-size: 1.5rem;
   /* padding: 10px 10px 10px 10px; */
   color: var(--dark-text);
@@ -93,22 +97,23 @@ body {
 #nav-check {
   display: none;
 }
-.nav__scroll{
-    background-color: var(--dark-bg);
+
+.nav__scroll {
+  background-color: var(--dark-bg);
 }
 
-.theme_switch{
-    border-radius: 50%;
-    border: 2px solid white;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+.theme_switch {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 990px) {
   .nav-btn {
     display: inline-block;
     position: absolute;
@@ -116,6 +121,7 @@ body {
     height: 70px;
     width: 70px;
     top: 0px;
+
   }
 
   .nav-btn label {
@@ -123,6 +129,7 @@ body {
     width: 50px;
     height: 50px;
     padding: 13px 13px 0;
+    cursor: pointer;
   }
 
   .nav-btn label img {
@@ -150,14 +157,16 @@ body {
     width: 100%;
     color: white;
   }
+
   .fa-bars {
     font-size: 30px;
   }
-  .nav #nav-check:not(:checked) ~ .nav-links {
+
+  .nav #nav-check:not(:checked)~.nav-links {
     height: 0px;
   }
 
-  #nav-check:checked ~ .nav-links {
+  #nav-check:checked~.nav-links {
     height: calc(320px - 70px);
     overflow-y: auto;
     margin-top: -10px;
