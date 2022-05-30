@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+
 footer {
     margin-top: 60px;
     width: 100%;
@@ -24,24 +26,46 @@ footer {
     font-size: 2.2rem;
     font-weight: 400;
 }
-.footer-element h4{
+
+.footer-element h4 {
     font-weight: 400;
 }
+
 .footer-element {
     font-size: 1rem;
     font-weight: lighter;
 }
+
 .form-container form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.footer-element a{
+
+.footer-container button {
+    background-color: #32dffe;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    transition: .3s;
+    border: none;
+    margin-top: 20px;
+}
+
+.footer-container button:hover {
+    background-color: #15c7e7;
+}
+
+.footer-element a {
     color: var(--dark-text);
     text-decoration: none;
 }
-.footer-element a:hover{
+
+.footer-element a:hover {
     color: var(--cyan);
 
 }
@@ -57,7 +81,7 @@ footer {
 .footer-container form textarea {
     width: 100%;
     margin: 10px 0;
-    height: 100px;
+    height: 60px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -71,5 +95,9 @@ footer {
         height: fit-content;
         font-size: 1.2rem;
         /* text-align: center; */
+    }
+
+    .footer-container {
+        margin-bottom: 30px;
     }
 }
