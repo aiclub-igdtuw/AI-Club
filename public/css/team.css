@@ -7,13 +7,8 @@
     color: darkcyan;
 }
 
-/* *::before,
-*::after {
-    box-sizing: border-box;
-} */
-
 html {
-    font-family: sans-serif;
+/*     font-family: sans-serif; */
     line-height: 1.15;
     scroll-behavior: smooth;
 /*     background-color: #f0f0f0; */
@@ -26,7 +21,7 @@ html {
 }
 
 body {
-  color: #999999;
+/*   color: #999999; */
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
