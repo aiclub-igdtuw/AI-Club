@@ -240,9 +240,12 @@ section {
     }
 
     .full {
+        display: flex;
         flex-direction: column;
         font-size: 3.5em;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .banner {
