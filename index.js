@@ -29,6 +29,6 @@ app.get('/events', (req, res) => {
 //     res.render('tad');
 // })
 
-app.listen(port, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Listening on port ${port}`)
 })
