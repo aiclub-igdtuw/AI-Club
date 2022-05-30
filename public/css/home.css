@@ -259,6 +259,7 @@ main div img {
     }
     .updates_container{
         flex-direction: column;
+        justify-content: center;
         width: 90%;
         text-align: center;
     }
