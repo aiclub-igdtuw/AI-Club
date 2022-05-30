@@ -46,7 +46,10 @@ footer {
 
 .footer-element {
     font-size: 1rem;
+    font-weight: lighter;
 }
+
+
 
 .form-container form {
     display: flex;
@@ -80,5 +83,8 @@ footer {
 @media screen and (max-width: 620px) {
     .footer-container {
         width: 70%;
+        height: fit-content;
+        font-size: 1.2rem;
+        /* text-align: center; */
     }
 }

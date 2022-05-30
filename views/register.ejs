@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\partials\navbar.css">
+    <link rel="stylesheet" href="\css\partials\footer.css">
+    <link rel="stylesheet" href="\css\register.css">
+    <title>AI CLUB IGDTUW</title>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+        <section class="full"><span><img style="margin:auto 0.2em;" src="\Assets\AIclub_logo.png"></span>AI-ML Month<br>
+        </section>
+        <section class="banner">
+            <div class="banner3d-1">
+                <div class="banner3d-1-front">
+                    6 week long<br>Internship Program on<br>Python and Machine Learning
+                </div>
+            </div>
+        </section>
+        <section class="mini"></section>
+        <section class="banner">
+            <div class="banner3d-2">
+                <div class="banner3d-2-front">
+                    When?<br>6th June - 11th July
+                </div>
+            </div>
+        </section>
+        <section class="half">What will you get?</section>
+        <section class="banner">
+            <div class="banner3d-3">
+                <div class="banner3d-3-front">
+                    Labyrinth of<br>Edifying<br>Sessions
+                </div>
+            </div>
+            <div class="image"></div>
+        </section>
+        <section class="half">Hands on Projects</section>
+        <section class="banner">
+            <div class="image2"></div>
+            <div class="banner3d-4">
+                <div class="banner3d-4-front">
+                    Exhilarating prizes!!<br><br>and much<br>more...<br>
+                </div>
+            </div>
+        </section>
+        <section class="full last-full">Interested?
+            <button class="learn-btn" type="button">
+                <a class="learn-btn" type="button"
+                    href="https://www.instagram.com/reel/CeDwvVcJU6U/?igshid=YmMyMTA2M2Y=">Learn More</a>
+            </button>
+        </section>
+        <script>
+            gsap.registerPlugin(ScrollTrigger);
+            gsap.set(".banner3d-1", { perspectiveOrigin: "center -100vh" });
+            gsap.set(".banner3d-2", { perspectiveOrigin: "center -100vh" });
+            gsap.set(".banner3d-3", { perspectiveOrigin: "center -100vh" });
+            gsap.set(".banner3d-4", { perspectiveOrigin: "left -100vh" });
+
+            gsap.to(".banner3d-1", {
+                scrollTrigger: {
+                    trigger: ".banner3d-1",
+                    scrub: true,
+                    start: "top bottom",
+                    end: "bottom top"
+                },
+                perspectiveOrigin: "center 100vh",
+                ease: "none"
+            });
+
+            gsap.to(".banner3d-2", {
+                scrollTrigger: {
+                    trigger: ".banner3d-2",
+                    scrub: true,
+                    start: "top bottom",
+                    end: "bottom top"
+                },
+                perspectiveOrigin: "center 100vh",
+                ease: "none"
+            });
+
+            gsap.to(".banner3d-3", {
+                scrollTrigger: {
+                    trigger: ".banner3d-3",
+                    scrub: true,
+                    start: "top bottom",
+                    end: "bottom top"
+                },
+                perspectiveOrigin: "center 100vh",
+                ease: "none"
+            });
+
+            gsap.to(".banner3d-4", {
+                scrollTrigger: {
+                    trigger: ".banner3d-4",
+                    scrub: true,
+                    start: "top bottom",
+                    end: "bottom top"
+                },
+                perspectiveOrigin: "left 100vh",
+                ease: "none"
+            });
+        </script>
+        <%- include('partials/footer') %>
+</body>
+
+</html>
