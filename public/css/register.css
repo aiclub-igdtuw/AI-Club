@@ -242,6 +242,7 @@ section {
     .full {
         flex-direction: column;
         font-size: 3.5em;
+        align-items: center;
     }
 
     .banner {
