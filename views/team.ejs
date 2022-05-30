@@ -1,313 +1,213 @@
-<%- include('partials/navbar') %>
-    <div class="container">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\partials\navbar.css">
+    <link rel="stylesheet" href="\css\partials\footer.css">
+    <link rel="stylesheet" href="\css\team.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- FOnt Awesome -->
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+    <title>AI CLUB IGDTUW</title>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+        <div class="container">
         <div class="section-title">
             <h1>Our Team </h1>
         </div>
-        <div class="row">
-
-
-            <div class="card">
-                <img src="\Assets\president.png" alt="John" style="width:100%">
-                <h1>Shruti Sinha</h1>
-                <p class="title">President</p>
-                <div style="margin: 24px 0;">
-                    <a href="https://www.linkedin.com/in/shruti-sinha-8b68a4131/"><i class="fab fa-linkedin"></i></a>
-
+        <ul class="cards">
+            <li class="cards__item">
+                <div class="card">
+                <div class="card__image" id="president"></div>
+                <div class="card__content">
+                    <div class="card__title">Shruti Sinha</div>
+                    <p class="card__text">President</p>
+                    <a href="https://www.linkedin.com/in/shruti-sinha-8b68a4131"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
-
-            </div>
-
-            <div class="card">
-                <img src="\Assets\Arun sir.jpeg" alt="John" style="width:100%">
-                <h1>Arun Sharma</h1>
-                <p class="title">Faculty Coordinator</p>
-                <div style="margin: 24px 0;">
-                    <a href="https://www.linkedin.com/in/arunsharma2303/"><i class="fab fa-linkedin"></i></a>
-
                 </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                <div class="card__image" id="faculty"></div>
+                <div class="card__content">
+                    <div class="card__title">Arun Sharma</div>
+                    <p class="card__text">Faculty Coordinator</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+        </ul>
 
-            </div>
-
-        </div>
         <div class="section-title">
             <h1>VICE PRESIDENTS</h1>
         </div>
+        <ul class="cards">
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="vp1"></div>
+                    <div class="card__content">
+                    <div class="card__title">Medhavi Maurya</div>
+                    <p class="card__text">Vice President</p>
+                    <a href="https://www.linkedin.com/in/medhavi-maurya-7201711b3"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="vp2"></div>
+                    <div class="card__content">
+                    <div class="card__title">Vibhuti Saha</div>
+                    <p class="card__text">Vice President</p>
+                    <a href="https://www.linkedin.com/in/vibhuti-saha-8452ab1b8"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="vp3"></div>
+                    <div class="card__content">
+                    <div class="card__title">Preeti Dhankar</div>
+                    <p class="card__text">Vice President</p>
+                    <a href="https://www.linkedin.com/in/preeti-dhankar-9589851b5/"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
 
-        <div class="row">
-
-
+        <div class="section-title">
+            <h1>CORE TEAM</h1>
+        </div>
+        <ul class="cards">
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="tech1"></div>
+                    <div class="card__content">
+                    <div class="card__title">Aishwarya Suresh</div>
+                    <p class="card__text">Technical Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="tech2"></div>
+                    <div class="card__content">
+                    <div class="card__title">Jhanvee Khola</div>
+                    <p class="card__text">Technical Head</p>
+                    <a href="https://www.linkedin.com/in/jhanvee-khola/"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="tech3"></div>
+                    <div class="card__content">
+                    <div class="card__title">Apoorva Tiwari</div>
+                    <p class="card__text">Technical Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards__item">
             <div class="card">
-                <img src="\Assets\MEDHAVI MAURYA.png" alt="John" style="width:100%">
-                <h1>Medhavi Maurya</h1>
-                <p class="title">Vice President</p>
-                <div style="margin: 24px 0;">
-                    <a href="https://www.linkedin.com/in/medhavi-maurya-7201711b3/"><i class="fab fa-linkedin"></i></a>
-
+                <div class="card__image" id="content"></div>
+                <div class="card__content">
+                <div class="card__title">Amritaya</div>
+                <p class="card__text">Content Head</p>
+                <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
-
             </div>
-
-            <div class="card">
-                <img src="\Assets\VIBHUTI.png" alt="John" style="width:100%">
-                <h1>Vibhuti Saha</h1>
-                <p class="title">Vice President</p>
-                <div style="margin: 24px 0;">
-                    <a href="https://www.linkedin.com/in/vibhuti-saha-8452ab1b8"><i class="fab fa-linkedin"></i></a>
-
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="research1"></div>
+                <div class="card__content">
+                    <div class="card__title">Ujali Sharma</div>
+                    <p class="card__text">Research Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
-
-            </div>
-
-            <div class="card">
-                <img src="\Assets\PREETI.png" alt="John" style="width:100%">
-                <h1>Preeti Dhankar</h1>
-                <p class="title">Vice President</p>
-                <div style="margin: 24px 0;">
-                    <a href="https://www.linkedin.com/in/preeti-dhankar-9589851b5/"><i class="fab fa-linkedin"></i></a>
-
                 </div>
-
-            </div>
-
-        </div>
-
-
-
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="research2"></div>
+                <div class="card__content">
+                    <div class="card__title">Ishita Saxena</div>
+                    <p class="card__text">Research Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="em1"></div>
+                <div class="card__content">
+                    <div class="card__title">Yuktika Duggal</div>
+                    <p class="card__text">Event Management Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="em2"></div>
+                <div class="card__content">
+                    <div class="card__title">Yashika Behl</div>
+                    <p class="card__text">Event Management Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="pr1"></div>
+                <div class="card__content">
+                    <div class="card__title">Shruti Koli</div>
+                    <p class="card__text">PR Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="pr2"></div>
+                <div class="card__content">
+                    <div class="card__title">Yashvi Singh</div>
+                    <p class="card__text">PR Head</p>
+                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="creative1"></div>
+                <div class="card__content">
+                    <div class="card__title">Srishti Agrawal</div>
+                    <p class="card__text">Creative Head</p>
+                    <a href="https://www.linkedin.com/in/srishti-agrawal-7974871bb"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image" id="creative2"></div>
+                <div class="card__content">
+                    <div class="card__title">Veethika Eeti</div>
+                    <p class="card__text">Creative Head</p>
+                    <a href="https://www.linkedin.com/in/veethika-eeti-1656931bb"><i class="fa fa-lg fa-linkedin"></i></a>
+                </div>
+                </div>
+            </li>
+        </ul>
     </div>
+        <%- include('partials/footer') %>
+</body>
 
-
-    <div class="section-title">
-        <h1>CORE TEAM</h1>
-    </div>
-    <div class="row">
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\yuktika duggal.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Yuktika Duggal</h2>
-                    <h3>Event Management Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="https://www.linkedin.com/in/yuktika-duggal-2949b8202/" class="social-li"> <i
-                            class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\yashika behl.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Yashika Behl</h2>
-                    <h3>Event Management Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\SRISHTI SINGH.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Srishti Singh</h2>
-                    <h3>Creative Head</h3>
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\veethika.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Veethika Eeti</h2>
-                    <h3>Creative Head</h3>
-
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="row">
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\AMRITAYA.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Amritaya</h2>
-                    <h3>Content Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\aishwarya.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Aishwarya</h2>
-                    <h3>Technical Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\jhanvee.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Jhanvee Khola</h2>
-                    <h3>Technical Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\apoorva tiwari.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Apoorva Tiwari</h2>
-                    <h3>Technical Head</h3>
-
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-    </div>
-
-    <div class="row">
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\shruti koli.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Shruti Koli</h2>
-                    <h3>PR Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\yashvi.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Yashvi Singh</h2>
-                    <h3>PR Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\uajli sharma.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Ujali Sharma</h2>
-                    <h3>Research Head</h3>
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="team">
-                <div class="team-img">
-                    <img src="\Assets\Ishita Saxena_2_Cse.png" alt="Team Image">
-                </div>
-                <div class="team-content">
-                    <h2>Ishita Saxena</h2>
-                    <h3>Research Head</h3>
-
-
-                </div>
-                <div class="team-social">
-
-                    <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </div>
-    <%- include('partials/footer') %>
+</html>
