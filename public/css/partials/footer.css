@@ -3,10 +3,11 @@ footer {
     height: fit-content;
     display: flex;
     justify-content: center;
-    color: white;
     align-items: center;
     flex-flow: wrap;
-    background-color: rgba(0, 139, 139, 0.429);
+    padding-top: 40px;
+    /* background-color: rgba(0, 139, 139, 0.429); */
+    border-top: 1px solid var(--cyan-dark);
     font-family: 'Titillium Web', sans-serif;
     justify-content: space-evenly;
 }
@@ -21,7 +22,26 @@ footer {
 
 .footer-container h1 {
     font-size: 2.2rem;
-    font-weight: bold;
+    font-weight: 400;
+}
+.footer-container h4{
+    font-weight: 400;
+}
+
+.footer-container a{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.light .footer-container a{
+    color: var(--white-text);
+}
+.light .footer-container a:hover{
+    color: var(---dark-theme-cyan);
+}
+.footer-container a:hover{
+    color: var(--cyan-dark);
 }
 
 .footer-element {
@@ -40,6 +60,10 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
     height: 30px;
+    font-family: var(--font-sans);
+    border: none;
+    outline: none;
+    /* border-radius: 5px; */
 }
 
 .footer-container form textarea {
