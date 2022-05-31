@@ -140,6 +140,12 @@ main div img {
     width: 70%;
 }
 
+#arun {
+    height: 300px;
+    width: 300px;
+    margin-left: 15px;
+}
+
 .vc_text {
     width: 60%;
     text-align: center;
