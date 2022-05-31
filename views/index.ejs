@@ -55,14 +55,17 @@
     </div>
     <div class="about_container">
         <div data-aos="fade-up" class="vc_photo">
-            <img src="\Assets\Arun_sir.jpeg" alt="">
+            <img src="\Assets\Arun_sir.jpeg" id="arun" alt="">
             <h4>Dr. Arun Sharma</h4>
         </div>
         <div data-aos="fade-up" class="vc_text">
             <h3>Faculty Coordinator - AI CLUB</h3>
-            <p>Prof. Arun Sharma (Head - Dept. of AI and Data Sciences, IGDTUW) has been an eminent guiding force behind the stupendous success of the AI Club IGDTUW, 
-            since its inception. With 25 years of experience in educating, managing and researching in academia under his belt as well as publishing more than 100 papers in an assortment of reputed journals, 
-            Arun Sir continues to inspire countless members of this society to forge their way into the resplendent world of Machine Learning and AI.</p>
+            <p>Prof. Arun Sharma (Head - Dept. of AI and Data Sciences, IGDTUW) has been an eminent guiding force behind
+                the stupendous success of the AI Club IGDTUW,
+                since its inception. With 25 years of experience in educating, managing and researching in academia
+                under his belt as well as publishing more than 100 papers in an assortment of reputed journals,
+                Arun Sir continues to inspire countless members of this society to forge their way into the resplendent
+                world of Machine Learning and AI.</p>
         </div>
     </div>
     <div class="updates" id="updates">
@@ -73,31 +76,33 @@
             </div>
             <div class="updates_col updates_desc">
                 <h2>AI-ML Month</h2>
-                <p>Let’s embark on this edifying journey of exploring the profundity of the fascinating domain of Machine Learning , 
-                beginning from the indispensable fundamentals of Python programming & version control through Git and building our way to 
-                utilitarian concepts of advanced level, with the first-ever AI-ML month.✨</p>
+                <p>Let’s embark on this edifying journey of exploring the profundity of the fascinating domain of
+                    Machine Learning ,
+                    beginning from the indispensable fundamentals of Python programming & version control through Git
+                    and building our way to
+                    utilitarian concepts of advanced level, with the first-ever AI-ML month.✨</p>
                 <button class="register-btn"><a href="register">Learn More</a></button>
             </div>
         </div>
     </div>
     <%- include('partials/footer') %>
-    <script>
-        window.addEventListener('load', videoScroll);
-        window.addEventListener('scroll', videoScroll);
-        function videoScroll() {
-          if ( document.querySelectorAll('video[autoplay]').length > 0) {
-            var windowHeight = window.innerHeight,
-                videoEl = document.querySelectorAll('video[autoplay]');
-            for (var i = 0; i < videoEl.length; i++) {
-              var thisVideoEl = videoEl[i],
-                  videoHeight = thisVideoEl.clientHeight,
-                  videoClientRect = thisVideoEl.getBoundingClientRect().top;
-              if ( videoClientRect <= ( (windowHeight) - (videoHeight*.5) ) && videoClientRect >= ( 0 - ( videoHeight*.5 ) ) ) {
-                thisVideoEl.play();
-              } else {
-                thisVideoEl.pause();
-              }
+        <script>
+            window.addEventListener('load', videoScroll);
+            window.addEventListener('scroll', videoScroll);
+            function videoScroll() {
+                if (document.querySelectorAll('video[autoplay]').length > 0) {
+                    var windowHeight = window.innerHeight,
+                        videoEl = document.querySelectorAll('video[autoplay]');
+                    for (var i = 0; i < videoEl.length; i++) {
+                        var thisVideoEl = videoEl[i],
+                            videoHeight = thisVideoEl.clientHeight,
+                            videoClientRect = thisVideoEl.getBoundingClientRect().top;
+                        if (videoClientRect <= ((windowHeight) - (videoHeight * .5)) && videoClientRect >= (0 - (videoHeight * .5))) {
+                            thisVideoEl.play();
+                        } else {
+                            thisVideoEl.pause();
+                        }
+                    }
+                }
             }
-          }
-        }
-    </script>
+        </script>

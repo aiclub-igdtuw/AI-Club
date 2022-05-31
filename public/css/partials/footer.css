@@ -86,6 +86,8 @@ footer {
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+
 #tagline {
     font-size: 0.75rem;
 }
@@ -100,5 +102,9 @@ footer {
 
     .footer-container {
         margin-bottom: 30px;
+    }
+
+    iframe {
+        width: 262px;
     }
 }
