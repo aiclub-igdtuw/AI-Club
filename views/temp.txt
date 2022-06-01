@@ -40,7 +40,7 @@
                 <div class="card__content">
                 <div class="card__title">Amritaya</div>
                 <p class="card__text">Content Head</p>
-                <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/amritaya-ray-063644202"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
             </div>
             </li>
@@ -50,7 +50,7 @@
                 <div class="card__content">
                     <div class="card__title">Ujali Sharma</div>
                     <p class="card__text">Research Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/ujali-sharma-5348b1204"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
                 </div>
             </li>
@@ -70,7 +70,7 @@
                 <div class="card__content">
                     <div class="card__title">Yuktika Duggal</div>
                     <p class="card__text">Event Management Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/yuktika-duggal-2949b8202"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
                 </div>
             </li>
@@ -80,7 +80,7 @@
                 <div class="card__content">
                     <div class="card__title">Yashika Behl</div>
                     <p class="card__text">Event Management Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/yashika-behl-918611202"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
                 </div>
             </li>
@@ -90,7 +90,7 @@
                 <div class="card__content">
                     <div class="card__title">Shruti Koli</div>
                     <p class="card__text">PR Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/shruti-koli-6133391bb/"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
                 </div>
             </li>
@@ -98,9 +98,9 @@
                 <div class="card">
                     <div class="card__image" id="pr2"></div>
                 <div class="card__content">
-                    <div class="card__title">Yashvi Singh</div>
+                    <div class="card__title">Swarlipi Mishra</div>
                     <p class="card__text">PR Head</p>
-                    <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/swarlipi-mishra-2994b4207"><i class="fa fa-lg fa-linkedin"></i></a>
                 </div>
                 </div>
             </li>
