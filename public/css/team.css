@@ -96,7 +96,7 @@ figure.snip0078.blue img {
   border: 10px solid var(--team-cyan);
 }
 
-.fa-brands {
+.fa-brands.tsocial {
   margin-top: 5px;
   background-color: white;
   border-radius: 5px;
