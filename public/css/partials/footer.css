@@ -86,7 +86,9 @@ footer {
     font-family: 'Titillium Web', sans-serif;
 }
 
-
+.fa-brands{
+    background-color: none;
+}
 
 #tagline {
     font-size: 0.75rem;
