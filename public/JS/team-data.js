@@ -11,7 +11,7 @@ teamData = [
   [
     {img: "aishwarya.png", name: "Aishwarya Suresh", post: "Technical Head", linkedIn: "#"}, 
     {img: "jhanvee.png", name: "Jhanvee Khola", post: "Technical Head", linkedIn: "https://www.linkedin.com/in/jhanvee-khola"},
-    {img: "apoorva_tiwari.png", name: "Apoorva Tiwari", post: "Technical Head", linkedIn: "#"}, 
+    {img: "manvi.png", name: "Manvi Kaur", post: "Technical Head", linkedIn: "#"}, 
     {img: "AMRITAYA.png", name: "Amritaya", post: "Content Head", linkedIn: "https://www.linkedin.com/in/amritaya-ray-063644202"}, 
     {img: "ujali_sharma.png", name: "Ujali Sharma", post: "Research Head", linkedIn: "https://www.linkedin.com/in/ujali-sharma-5348b1204"}, 
     {img: "Ishita_Saxena_2_Cse.png", name: "Ishita Saxena", post: "Research Head", linkedIn: "#"}, 
